@@ -15,31 +15,30 @@
     Addons
 </div>
 
-
-<!-- Nav Item - Administración -->
+<!-- Nav Item - Departamento Caballeros -->
 <li class="nav-item">
-    <a class="nav-link" href="/admin/">
+    <a class="nav-link" href="/DptoCaballeros/">
         <i class="fas fa-fw fa-chart-area"></i>
-        <span>Administración</span></a>
+        <span>Departamento Caballeros</span></a>
 </li>
 
-<!-- Nav Item - Inventario -->
+<!-- Nav Item - Departamento Damas -->
 <li class="nav-item">
-    <a class="nav-link" href="/inventario/">
+    <a class="nav-link" href="/DptoDamas/">
         <i class="fas fa-fw fa-chart-area"></i>
-        <span>Inventario</span></a>
+        <span>Departamento Damas</span></a>
 </li>
 
-<!-- Nav Item - Compras -->
+<!-- Nav Item - Departamento Niños -->
 <li class="nav-item">
-    <a class="nav-link" href="/compras/">
+    <a class="nav-link" href="/Ninos/">
         <i class="fas fa-fw fa-chart-area"></i>
-        <span>Compras</span></a>
+        <span>Departamento Niños</span></a>
 </li>
 
-<!-- Nav Item - Cerrar Sesión -->
+<!-- Nav Item - Departamento Niñas -->
 <li class="nav-item">
-    <a class="nav-link" href="/logout/">
+    <a class="nav-link" href="/Ninas/">
         <i class="fas fa-fw fa-chart-area"></i>
-        <span>Cerrar Sesión</span></a>
+        <span>Departamento Niñas</span></a>
 </li>

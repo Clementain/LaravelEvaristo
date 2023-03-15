@@ -15,20 +15,34 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/personal', function () {
-    return "Testing personal";
+Route::get('/DptoCaballeros', function () {
+    return view('layout.DptoCaballeros');
 });
 
-Route::get('/usuarios', function () {
-    return "Testing usuarios";
+Route::get('/DptoDamas', function () {
+    return view('layout.DptoDamas');
 });
 
-Route::group(['prefix'=>'admin', 'as'=>'admin'], function(){
-    Route::get('/', function(){
+Route::get('/Ninos', function () {
+    return view('layout.Ninos');
+});
+
+Route::get('/Ninas', function () {
+    return view('layout.Ninas');
+});
+
+
+Route::group(['prefix' => 'admin', 'as' => 'admin'], function () {
+    Route::get('/', function () {
         return view('admin');
     });
-    Route::get('/usuarios', function(){
-        return view('layout.usuarios');
+    Route::get('/clientes', function () {
+        return view('layout.clientes');
+    });
+    Route::get('/ventas', function () {
+        return view('layout.ventas');
+    });
+    Route::get('/proveedores', function () {
+        return view('layout.proveedores');
     });
 });
-

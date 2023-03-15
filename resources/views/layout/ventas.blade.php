@@ -1,5 +1,4 @@
 @extends('layout.main')
 @section('comentario')
-<h1>USUARIOS</h1>
-    @include('layout.header')
+    <h1>VENTAS</h1>
 @endsection
