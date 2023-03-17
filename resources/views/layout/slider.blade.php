@@ -1,44 +1,25 @@
-<!-- Divider -->
-<hr class="sidebar-divider">
-
-<!-- Heading -->
-<div class="sidebar-heading">
-    Interface
+<div id="layoutSidenav_nav">
+    <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+        <div class="sb-sidenav-menu">
+            <div class="nav">
+                <div class="sb-sidenav-menu-heading">Departamentos</div>
+                <a class="nav-link" href="/DptoDamas/">
+                    <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                    Damas
+                </a>
+                <a class="nav-link" href="/DptoCaballeros/">
+                    <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                    Caballeros
+                </a>
+                <a class="nav-link" href="/Ninas/">
+                    <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                    Niñas
+                </a>
+                <a class="nav-link" href="/Ninos/">
+                    <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                    Niños
+                </a>
+            </div>
+        </div>
+    </nav>
 </div>
-
-
-<!-- Divider -->
-<hr class="sidebar-divider">
-
-<!-- Heading -->
-<div class="sidebar-heading">
-    Addons
-</div>
-
-<!-- Nav Item - Departamento Caballeros -->
-<li class="nav-item">
-    <a class="nav-link" href="/DptoCaballeros/">
-        <i class="fas fa-fw fa-chart-area"></i>
-        <span>Departamento Caballeros</span></a>
-</li>
-
-<!-- Nav Item - Departamento Damas -->
-<li class="nav-item">
-    <a class="nav-link" href="/DptoDamas/">
-        <i class="fas fa-fw fa-chart-area"></i>
-        <span>Departamento Damas</span></a>
-</li>
-
-<!-- Nav Item - Departamento Niños -->
-<li class="nav-item">
-    <a class="nav-link" href="/Ninos/">
-        <i class="fas fa-fw fa-chart-area"></i>
-        <span>Departamento Niños</span></a>
-</li>
-
-<!-- Nav Item - Departamento Niñas -->
-<li class="nav-item">
-    <a class="nav-link" href="/Ninas/">
-        <i class="fas fa-fw fa-chart-area"></i>
-        <span>Departamento Niñas</span></a>
-</li>
