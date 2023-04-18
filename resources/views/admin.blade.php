@@ -1,5 +1,6 @@
 @extends('layout.main')
 @section('comentario')
+    <h1>{{ $numero }}</h1>
     <main>
         <div class="container-fluid px-4">
             @include('layout.header')

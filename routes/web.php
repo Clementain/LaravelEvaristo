@@ -33,9 +33,8 @@ Route::get('/Ninas', function () {
 
 
 Route::group(['prefix' => 'admin', 'as' => 'admin'], function () {
-    Route::get('/', function () {
-        return view('admin');
-    });
+    Route::get('/', 'MiControlador@vistaConNumeroAleatorio')->name('admin');
+
     Route::get('/clientes', function () {
         return view('layout.clientes');
     });
