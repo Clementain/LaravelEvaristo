@@ -15,33 +15,19 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/DptoCaballeros', function () {
-    return view('layout.DptoCaballeros');
-});
+Route::get('/DptoCaballeros', 'MiControladorUsuarios@uCaballeros')->name('DptoCaballeros');
 
-Route::get('/DptoDamas', function () {
-    return view('layout.DptoDamas');
-});
+Route::get('/DptoDamas', 'MiControladorUsuarios@uDamas')->name('DptoDamas');
 
-Route::get('/Ninos', function () {
-    return view('layout.Ninos');
-});
+Route::get('/Ninos', 'MiControladorUsuarios@uNinos')->name('Ninos');
 
-Route::get('/Ninas', function () {
-    return view('layout.Ninas');
-});
+Route::get('/Ninas', 'MiControladorUsuarios@uNinas')->name('Ninas');
 
 
 Route::group(['prefix' => 'admin', 'as' => 'admin'], function () {
     Route::get('/', 'MiControlador@vistaConNumeroAleatorio')->name('admin');
 
-    Route::get('/clientes', function () {
-        return view('layout.clientes');
-    });
-    Route::get('/ventas', function () {
-        return view('layout.ventas');
-    });
-    Route::get('/proveedores', function () {
-        return view('layout.proveedores');
-    });
+    Route::get('/clientes', 'MiControladorUsuarios@uClientes')->name('Clientes');
+    Route::get('/ventas', 'MiControladorUsuarios@uVentas')->name('Ventas');
+    Route::get('/proveedores', 'MiControladorUsuarios@uProveedores')->name('Proveedores');
 });
